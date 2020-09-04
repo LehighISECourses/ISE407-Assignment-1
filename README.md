@@ -125,18 +125,19 @@ experiments.
     code, but you should measure and output only the time associated with the matrix 
     multiplication function call itself. 
     
-    When building your C code, it is important o keep in mind the optimization level.
+    When building your C code, it is important to keep in mind the optimization level.
     In general, you should call the compiler with `-O2` to get the highest level of 
     optimization.
  1. You should provide a Makefile with a target `experiment` that builds your code, 
     runs your experiments and produces the results. You should also include a target
     `test`, as before, that will be automatically run to test your code. This target
     should simply compare the matrices produced with different methods to make sure
-    they're the same. For C, you can simply use the `assert` funtion to do some simple
+    they're the same. For C, you can use the `assert` funtion to do some simple
     testing and compile with debugging enabled. We'll discuss how to do this in class.
  1. Compare and contrast the two languages in light of your results and
     explain the outcomes of the experiments in as much depth as possible.
- 1. Explain what the following assembly code shown in Lecture does line by line. 
+ 1. Explain what the following assembly code shown in 
+    [Lecture 1](https://coral.ie.lehigh.edu/~ted/ie407/lectures/Lecture2.pdf) does line by line. 
     You may find [this explanation](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
     helpful. 
     ```assembly_x86
